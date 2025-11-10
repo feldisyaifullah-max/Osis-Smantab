@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Struktur Sekbid OSIS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ===== GENERAL STYLES ===== */
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif; }
+    html { scroll-behavior: smooth; } /* Smooth scroll */
+    body { background: linear-gradient(135deg,#0b1b3d,#102a68); color:#fff; text-align:center; }
+    header { position: relative; width:100%; height:60%; display:flex; align-items:center; justify-content:center; background: linear-gradient(135deg, rgba(11,27,61,0.95), rgba(16,42,104,0.95)); }
+    header h1 { font-size:3rem; z-index:1; text-shadow:0 4px 10px #000; font-weight:700; }
+    section { padding:60px 20px; max-width:1200px; margin:auto; }
+    
+    /* ===== SEKBID STYLES ===== */
+    .sekbid-section { padding:80px 20px 60px; max-width:1200px; margin:auto; }
+    .sekbid-title { font-size:2.2rem; margin-bottom:50px; color:#00b4ff; font-weight:700; text-shadow:0 0 15px rgba(0,180,255,0.5); }
+    .sekbid { margin-bottom:70px; }
+    .banner { width:100%; height:250px; border-radius:15px; margin-bottom:20px; display:flex; align-items:center; justify-content:center; font-size:100px; transition: transform 0.3s ease; }
+    .banner:hover { transform: scale(1.02); }
+    .banner-1 { background: linear-gradient(135deg, #667eea, #764ba2); }
+    .banner-2 { background: linear-gradient(135deg, #f093fb, #f5576c); }
+    .banner-3 { background: linear-gradient(135deg, #4facfe, #00f2fe); }
+    .banner-4 { background: linear-gradient(135deg, #43e97b, #38f9d7); }
+    .banner-5 { background: linear-gradient(135deg, #fa709a, #fee140); }
+    .banner-6 { background: linear-gradient(135deg, #30cfd0, #330867); }
+    .banner-7 { background: linear-gradient(135deg, #a8edea, #fed6e3); }
+    .banner-8 { background: linear-gradient(135deg, #ff9a9e, #fecfef); }
+    .banner-9 { background: linear-gradient(135deg, #ffecd2, #fcb69f); }
+    .banner-10 { background: linear-gradient(135deg, #ff6e7f, #bfe9ff); }
+
+    .sekbid h2 { margin-bottom:25px; color:#00b4ff; text-shadow:0 0 8px rgba(0,180,255,0.6); font-size:1.4rem; font-weight:600; line-height:1.5; }
+    .sekbid-cards { display:flex; justify-content:center; flex-wrap:wrap; gap:25px; }
+    .sekbid-card { background: rgba(255,255,255,0.1); border-radius:20px; padding:25px; width:280px; backdrop-filter:blur(10px); box-shadow:0 0 15px rgba(0,0,0,0.3); transition: all 0.3s ease; }
+    .sekbid-card:hover { background: rgba(255,255,255,0.15); transform: translateY(-5px); box-shadow:0 0 20px rgba(0,180,255,0.4); }
+    .sekbid-card-img { width:150px; height:150px; border-radius:50%; border:4px solid #00b4ff; margin:0 auto 15px; display:flex; align-items:center; justify-content:center; font-size:65px; background: linear-gradient(135deg,#1e3c72,#2a5298); }
+    .sekbid-card h3 { color:#00b4ff; margin-bottom:8px; font-size:1.1rem; font-weight:600; }
+    .member-name { color:#fff; font-size:1.1rem; font-weight:600; margin-bottom:10px; }
+    .sekbid-card p { color: rgba(255,255,255,0.9); font-size:0.9rem; line-height:1.6; }
+
+    @media(max-width:768px){
+      .banner{height:200px; font-size:70px;}
+      .sekbid h2{font-size:1.2rem;}
+      .sekbid-cards{flex-direction:column;align-items:center;}
+      .sekbid-card{width:95%;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Struktur Sekbid OSIS SMA ZION</h1>
+  </header>
+
+  <section class="sekbid-section">
+
+    <h1 class="sekbid-title">Struktur Sekbid OSIS</h1>
+
+    <!-- SEKBID 1 -->
+    <div class="sekbid" id="sekbid1">
+      <div class="banner banner-1">🕌</div>
+      <h2>SEKBID 1 — Pembinaan Keimanan dan Ketaqwaan terhadap Tuhan Yang Maha Esa</h2>
+      <div class="sekbid-cards">
+        <div class="sekbid-card">
+          <div class="sekbid-card-img">👤</div>
+          <h3>Koordinator</h3>
+          <div class="member-name">Izzah Kamila XI-5</div>
+          <p><b>Motto:</b> Iman adalah cahaya hati.<br><b>Hobi:</b> Membaca Al-Quran</p>
+        </div>
+        <div class="sekbid-card">
+          <div class="sekbid-card-img">👤</div>
+          <h3>Anggota</h3>
+          <div class="member-name">Abdullah Mahbub X-8</div>
+          <p><b>Motto:</b> Taqwa adalah kunci surga.<br><b>Hobi:</b> Kajian Islam</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEKBID 2 -->
+    <div class="sekbid" id="sekbid2">
+      <div class="banner banner-2">🎭</div>
+      <h2>SEKBID 2 — Pembinaan Sastra dan Budaya</h2>
+      <div class="sekbid-cards">
+        <div class="sekbid-card">
+          <div class="sekbid-card-img">👤</div>
+          <h3>Koordinator</h3>
+          <div class="member-name">Syafina Sukma Putri XI-1</div>
+          <p><b>Motto:</b> Budaya adalah identitas bangsa.<br><b>Hobi:</b> Menulis puisi</p>
+        </div>
+        <div class="sekbid-card">
+          <div class="sekbid-card-img">👤</div>
+          <h3>Anggota</h3>
+          <div class="member-name">Hayatun Nufus X-7</div>
+          <p><b>Motto:</b> Seni adalah jiwa kehidupan.<br><b>Hobi:</b> Teater</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEKBID 3 sampai SEKBID 10 -->
+    <!-- Sama formatnya, tinggal tambahin id="sekbid3", id="sekbid4", dst -->
+
+  </section>
+</body>
+</html>
